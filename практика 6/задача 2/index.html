@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+</head>
+
+<body>
+    <h1>Поиск минимального и максимального числа</h1>
+    <p class="all-elements"></p>
+    <button onclick="GetMinNum()" class="min">Найти минимальное число</button>
+    <button onclick="GetMaxNum()" class="max">Найти максимальное число</button>
+    <p>Минимальное число: <span class="minNumber"></span></p>
+    <p>Максимальное число: <span class="maxNumber"></span></p>
+    <script>
+        const numbers = [12, 45, 2, 6, 34, 26]
+        const allElements = document.querySelector('.all-elements')
+        allElements.textContent = numbers.join(', ')
+
+        function GetMaxNum(){
+            let maxNum = numbers[0];
+            for (let i = 1; i < numbers.length; i++) {
+                maxNum = maxNum < numbers[i] ? numbers[i] : maxNum;
+            }
+            const maxEl = document.querySelector('.maxNumber');
+            maxEl.textContent = maxNum;
+        }
+
+        function GetMinNum(){
+            let minNum = numbers[0];
+            for (let i = 1; i < numbers.length; i++) {
+                minNum = minNum > numbers[i] ? numbers[i] : minNum;
+            }
+            const minEl = document.querySelector('.minNumber');
+            minEl.textContent = minNum;
+        }
+
+    </script>
+</body>
+
+</html>

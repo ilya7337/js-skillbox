@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 1</title>
+</head>
+
+<body>
+    <h1>Список товаров</h1>
+    <ul class="products">
+    </ul>
+    <script>
+        let products = ["Мышка", "Клавиатура", "Наушники"];
+        const newProducts = ["Монитор", "Принтер", "Флешка"];
+        const prodEl = document.querySelector('.products');
+        products = products.concat(newProducts);
+        console.log(products);
+        for (const product of products) {
+            const prodLi = document.createElement('li');
+            prodLi.textContent = product;
+            prodEl.append(prodLi)
+        }
+    </script>
+</body >
+</html >
