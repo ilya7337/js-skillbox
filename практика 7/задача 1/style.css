@@ -1,0 +1,40 @@
+ 
+button {
+    outline: none; 
+    box-shadow: none;
+    transition: none; 
+    border: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.btn-block{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.add-book{
+    background-color: #449937;
+    color: #fafcf9;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.search-book{
+    background-color: #1c45c6;
+    color: #fafcf9;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+
+.searched-elem{
+    background-color: #1c45c6;
+    padding: 10px;
+}

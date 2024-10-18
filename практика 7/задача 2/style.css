@@ -1,0 +1,35 @@
+ 
+button {
+    outline: none; 
+    box-shadow: none;
+    transition: none; 
+    border: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.btn-block{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.add-height{
+    background-color: #449937;
+    color: #fafcf9;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.filter-height{
+    background-color: #dc6f2c;
+    color: #fafcf9;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
