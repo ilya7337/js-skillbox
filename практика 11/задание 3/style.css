@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.card {
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+
+.card-text{
+    word-wrap: break-word; /* Позволяет переносить длинные слова */
+    white-space: normal; /* Позволяет тексту переноситься на новую строку */
+    overflow-wrap: break-word; /* Поддержка для переноса слов */
+}
