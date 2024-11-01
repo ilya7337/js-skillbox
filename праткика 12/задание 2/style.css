@@ -1,0 +1,56 @@
+
+
+.promocode-window {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 30px;
+    border: 1px solid #888;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.input-promocode{
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border-color: gray;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn{
+    background-color: #589fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.message{
+    font-size: 20px;
+    color: green;
+}
+
+
