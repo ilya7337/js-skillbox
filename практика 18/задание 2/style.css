@@ -1,0 +1,15 @@
+
+.cont {
+    width: 500px; 
+    height: 20px; 
+    background-color: #e0e0e0; 
+    border-radius: 5px; 
+    overflow: hidden; 
+}
+
+.progress-bar {
+    height: 100%; 
+    background-color: brown; 
+    transform: scaleX(0); 
+    transform-origin: left; 
+}
